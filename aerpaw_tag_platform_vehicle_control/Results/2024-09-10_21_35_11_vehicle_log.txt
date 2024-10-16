@@ -1,0 +1,354 @@
+[2024-09-10 21:35:12.402081] All imports were successful
+[2024-09-10 21:35:12.402230] Constants initialized
+[2024-09-10 21:35:12.402274] Search Altitude: 30
+[2024-09-10 21:35:12.402314] Cruise Altitude: 40
+[2024-09-10 21:35:12.402351] Target Location: (35.727753,-78.696723,40)
+[2024-09-10 21:35:12.402388] Mission Duration Limit: 20 minutes
+[2024-09-10 21:35:12.402430] Mission Battery Limit: 30%
+[2024-09-10 21:35:12.402467] Mission Battery Voltage Limit: 10.5V
+[2024-09-10 21:35:12.402566] Mission Linger Time: 300 seconds
+[2024-09-10 21:35:12.402608] RoverSearch StateMachine initialized
+[2024-09-10 21:35:13.327966] rover_search PID is: 829949
+[2024-09-10 21:35:13.328060] Current working directory: /root/AERPAW-Dev/AHN/E-VM/Profile_software/vehicle_control/RoverSearch
+[2024-09-10 21:35:13.328137] Heightmap loaded
+[2024-09-10 21:35:13.328172] Finished initialization
+[2024-09-10 21:35:13.328200] 
+[2024-09-10 21:35:14.330234] Starting mission coordinates: (35.7274823,-78.6962747,-0.017)
+[2024-09-10 21:35:14.330330] Starting mission at: 2024-09-10 21:35:14.330151
+[2024-09-10 21:35:14.330363] Starting battery level: Battery:voltage=12.587,current=0.0,level=100%
+[2024-09-10 21:35:14.330392] Takeoff height set to 0 meters at 35.7274823, -78.6962747.
+[2024-09-10 21:35:14.330425] Elevation offset calculated as 111 meters.
+[2024-09-10 21:35:14.330455] Heightmap offset set to 111
+[2024-09-10 21:35:14.330484] Ground height estimate: 0
+[2024-09-10 21:35:14.330566] Waiting for arming, then taking off
+[2024-09-10 21:35:14.330602] [aerpawlib] Guided command attempted. Waiting for safety pilot to arm
+[2024-09-10 21:35:46.393554] Took off and at cruise altitude: 39.95
+[2024-09-10 21:35:46.403713] Going to next waypoint
+[2024-09-10 21:35:46.403776] Next waypoint: (35.727753,-78.696723,40)
+[2024-09-10 21:35:46.404596] Received reply [{'request_function': 'validate_waypoint_req', 'result': True, 'message': ''}]
+[2024-09-10 21:35:46.404648] Moving to target location: (35.727753,-78.696723,40)
+[2024-09-10 21:35:46.404692] Distance to target: 50.39622213936827
+[2024-09-10 21:35:55.443935] Arrived at target location
+[2024-09-10 21:35:55.454096] Moving to take measurement
+[2024-09-10 21:35:55.454156] Elevation @ pos: 110
+[2024-09-10 21:35:55.454187] Ground height estimate @ pos: -1
+[2024-09-10 21:35:55.454216] Minimum safe altitude (7 above ground): 6
+[2024-09-10 21:35:55.454246] Safe altitude: 6
+[2024-09-10 21:35:55.454275] The target altitude (30) is safe to fly
+[2024-09-10 21:35:55.454305] Lowering altitude to 30
+[2024-09-10 21:36:01.946841] Arrived at target altitude
+[2024-09-10 21:36:01.946970] Taking measurements
+[2024-09-10 21:36:01.947028] Current Battery Level: Battery:voltage=12.587,current=28.16,level=90%
+[2024-09-10 21:36:01.947067] Current Mission Duration: 47.616708 seconds
+[2024-09-10 21:36:01.947113] attempting to linger for 300 seconds
+[2024-09-10 21:36:01.947150] Measurement 1 of 300, Battery Level: 90% @ 12.587V, Mission Duration: 47.62 seconds
+[2024-09-10 21:36:02.948087] Measurement 2 of 300, Battery Level: 90% @ 12.587V, Mission Duration: 48.62 seconds
+[2024-09-10 21:36:03.949285] Measurement 3 of 300, Battery Level: 90% @ 12.587V, Mission Duration: 49.62 seconds
+[2024-09-10 21:36:04.949842] Measurement 4 of 300, Battery Level: 90% @ 12.587V, Mission Duration: 50.62 seconds
+[2024-09-10 21:36:05.951029] Measurement 5 of 300, Battery Level: 89% @ 12.587V, Mission Duration: 51.62 seconds
+[2024-09-10 21:36:06.952124] Measurement 6 of 300, Battery Level: 89% @ 12.587V, Mission Duration: 52.62 seconds
+[2024-09-10 21:36:07.953305] Measurement 7 of 300, Battery Level: 89% @ 12.587V, Mission Duration: 53.62 seconds
+[2024-09-10 21:36:08.954490] Measurement 8 of 300, Battery Level: 89% @ 12.587V, Mission Duration: 54.62 seconds
+[2024-09-10 21:36:09.955724] Measurement 9 of 300, Battery Level: 88% @ 12.587V, Mission Duration: 55.63 seconds
+[2024-09-10 21:36:10.956533] Measurement 10 of 300, Battery Level: 88% @ 12.587V, Mission Duration: 56.63 seconds
+[2024-09-10 21:36:11.957758] Measurement 11 of 300, Battery Level: 88% @ 12.587V, Mission Duration: 57.63 seconds
+[2024-09-10 21:36:12.958198] Measurement 12 of 300, Battery Level: 88% @ 12.587V, Mission Duration: 58.63 seconds
+[2024-09-10 21:36:13.959398] Measurement 13 of 300, Battery Level: 87% @ 12.587V, Mission Duration: 59.63 seconds
+[2024-09-10 21:36:14.960294] Measurement 14 of 300, Battery Level: 87% @ 12.587V, Mission Duration: 60.63 seconds
+[2024-09-10 21:36:15.961496] Measurement 15 of 300, Battery Level: 87% @ 12.587V, Mission Duration: 61.63 seconds
+[2024-09-10 21:36:16.962699] Measurement 16 of 300, Battery Level: 87% @ 12.587V, Mission Duration: 62.63 seconds
+[2024-09-10 21:36:17.963888] Measurement 17 of 300, Battery Level: 86% @ 12.587V, Mission Duration: 63.63 seconds
+[2024-09-10 21:36:18.965126] Measurement 18 of 300, Battery Level: 86% @ 12.587V, Mission Duration: 64.63 seconds
+[2024-09-10 21:36:19.966333] Measurement 19 of 300, Battery Level: 86% @ 12.587V, Mission Duration: 65.64 seconds
+[2024-09-10 21:36:20.967526] Measurement 20 of 300, Battery Level: 86% @ 12.587V, Mission Duration: 66.64 seconds
+[2024-09-10 21:36:21.968710] Measurement 21 of 300, Battery Level: 85% @ 12.587V, Mission Duration: 67.64 seconds
+[2024-09-10 21:36:22.969443] Measurement 22 of 300, Battery Level: 85% @ 12.587V, Mission Duration: 68.64 seconds
+[2024-09-10 21:36:23.970662] Measurement 23 of 300, Battery Level: 85% @ 12.587V, Mission Duration: 69.64 seconds
+[2024-09-10 21:36:24.971843] Measurement 24 of 300, Battery Level: 85% @ 12.587V, Mission Duration: 70.64 seconds
+[2024-09-10 21:36:25.972145] Measurement 25 of 300, Battery Level: 85% @ 12.587V, Mission Duration: 71.64 seconds
+[2024-09-10 21:36:26.972593] Measurement 26 of 300, Battery Level: 84% @ 12.587V, Mission Duration: 72.64 seconds
+[2024-09-10 21:36:27.973814] Measurement 27 of 300, Battery Level: 84% @ 12.587V, Mission Duration: 73.64 seconds
+[2024-09-10 21:36:28.975013] Measurement 28 of 300, Battery Level: 84% @ 12.587V, Mission Duration: 74.64 seconds
+[2024-09-10 21:36:29.976218] Measurement 29 of 300, Battery Level: 84% @ 12.587V, Mission Duration: 75.65 seconds
+[2024-09-10 21:36:30.976492] Measurement 30 of 300, Battery Level: 83% @ 12.587V, Mission Duration: 76.65 seconds
+[2024-09-10 21:36:31.977673] Measurement 31 of 300, Battery Level: 83% @ 12.587V, Mission Duration: 77.65 seconds
+[2024-09-10 21:36:32.978225] Measurement 32 of 300, Battery Level: 83% @ 12.587V, Mission Duration: 78.65 seconds
+[2024-09-10 21:36:33.979353] Measurement 33 of 300, Battery Level: 83% @ 12.587V, Mission Duration: 79.65 seconds
+[2024-09-10 21:36:34.980536] Measurement 34 of 300, Battery Level: 82% @ 12.587V, Mission Duration: 80.65 seconds
+[2024-09-10 21:36:35.981710] Measurement 35 of 300, Battery Level: 82% @ 12.587V, Mission Duration: 81.65 seconds
+[2024-09-10 21:36:36.982843] Measurement 36 of 300, Battery Level: 82% @ 12.587V, Mission Duration: 82.65 seconds
+[2024-09-10 21:36:37.983130] Measurement 37 of 300, Battery Level: 82% @ 12.587V, Mission Duration: 83.65 seconds
+[2024-09-10 21:36:38.983863] Measurement 38 of 300, Battery Level: 81% @ 12.587V, Mission Duration: 84.65 seconds
+[2024-09-10 21:36:39.984269] Measurement 39 of 300, Battery Level: 81% @ 12.587V, Mission Duration: 85.65 seconds
+[2024-09-10 21:36:40.985452] Measurement 40 of 300, Battery Level: 81% @ 12.587V, Mission Duration: 86.66 seconds
+[2024-09-10 21:36:41.986676] Measurement 41 of 300, Battery Level: 81% @ 12.587V, Mission Duration: 87.66 seconds
+[2024-09-10 21:36:42.987064] Measurement 42 of 300, Battery Level: 81% @ 12.587V, Mission Duration: 88.66 seconds
+[2024-09-10 21:36:43.988260] Measurement 43 of 300, Battery Level: 80% @ 12.587V, Mission Duration: 89.66 seconds
+[2024-09-10 21:36:44.989076] Measurement 44 of 300, Battery Level: 80% @ 12.587V, Mission Duration: 90.66 seconds
+[2024-09-10 21:36:45.990175] Measurement 45 of 300, Battery Level: 80% @ 12.587V, Mission Duration: 91.66 seconds
+[2024-09-10 21:36:46.991090] Measurement 46 of 300, Battery Level: 80% @ 12.587V, Mission Duration: 92.66 seconds
+[2024-09-10 21:36:47.992282] Measurement 47 of 300, Battery Level: 79% @ 12.587V, Mission Duration: 93.66 seconds
+[2024-09-10 21:36:48.993496] Measurement 48 of 300, Battery Level: 79% @ 12.587V, Mission Duration: 94.66 seconds
+[2024-09-10 21:36:49.994696] Measurement 49 of 300, Battery Level: 79% @ 12.587V, Mission Duration: 95.66 seconds
+[2024-09-10 21:36:50.995795] Measurement 50 of 300, Battery Level: 79% @ 12.587V, Mission Duration: 96.67 seconds
+[2024-09-10 21:36:51.996087] Measurement 51 of 300, Battery Level: 78% @ 12.587V, Mission Duration: 97.67 seconds
+[2024-09-10 21:36:52.997213] Measurement 52 of 300, Battery Level: 78% @ 12.587V, Mission Duration: 98.67 seconds
+[2024-09-10 21:36:53.998109] Measurement 53 of 300, Battery Level: 78% @ 12.587V, Mission Duration: 99.67 seconds
+[2024-09-10 21:36:54.999301] Measurement 54 of 300, Battery Level: 78% @ 12.587V, Mission Duration: 100.67 seconds
+[2024-09-10 21:36:55.999708] Measurement 55 of 300, Battery Level: 77% @ 12.587V, Mission Duration: 101.67 seconds
+[2024-09-10 21:36:57.000941] Measurement 56 of 300, Battery Level: 77% @ 12.587V, Mission Duration: 102.67 seconds
+[2024-09-10 21:36:58.002155] Measurement 57 of 300, Battery Level: 77% @ 12.587V, Mission Duration: 103.67 seconds
+[2024-09-10 21:36:59.003423] Measurement 58 of 300, Battery Level: 77% @ 12.587V, Mission Duration: 104.67 seconds
+[2024-09-10 21:37:00.004607] Measurement 59 of 300, Battery Level: 77% @ 12.587V, Mission Duration: 105.67 seconds
+[2024-09-10 21:37:01.005619] Measurement 60 of 300, Battery Level: 76% @ 12.587V, Mission Duration: 106.68 seconds
+[2024-09-10 21:37:02.006814] Measurement 61 of 300, Battery Level: 76% @ 12.587V, Mission Duration: 107.68 seconds
+[2024-09-10 21:37:03.008015] Measurement 62 of 300, Battery Level: 76% @ 12.587V, Mission Duration: 108.68 seconds
+[2024-09-10 21:37:04.008521] Measurement 63 of 300, Battery Level: 76% @ 12.587V, Mission Duration: 109.68 seconds
+[2024-09-10 21:37:05.009725] Measurement 64 of 300, Battery Level: 75% @ 12.587V, Mission Duration: 110.68 seconds
+[2024-09-10 21:37:06.010711] Measurement 65 of 300, Battery Level: 75% @ 12.587V, Mission Duration: 111.68 seconds
+[2024-09-10 21:37:07.011715] Measurement 66 of 300, Battery Level: 75% @ 12.587V, Mission Duration: 112.68 seconds
+[2024-09-10 21:37:08.012110] Measurement 67 of 300, Battery Level: 75% @ 12.587V, Mission Duration: 113.68 seconds
+[2024-09-10 21:37:09.013340] Measurement 68 of 300, Battery Level: 74% @ 12.587V, Mission Duration: 114.68 seconds
+[2024-09-10 21:37:10.014173] Measurement 69 of 300, Battery Level: 74% @ 12.587V, Mission Duration: 115.68 seconds
+[2024-09-10 21:37:11.015411] Measurement 70 of 300, Battery Level: 74% @ 12.587V, Mission Duration: 116.69 seconds
+[2024-09-10 21:37:12.015769] Measurement 71 of 300, Battery Level: 74% @ 12.587V, Mission Duration: 117.69 seconds
+[2024-09-10 21:37:13.016492] Measurement 72 of 300, Battery Level: 73% @ 12.587V, Mission Duration: 118.69 seconds
+[2024-09-10 21:37:14.017684] Measurement 73 of 300, Battery Level: 73% @ 12.587V, Mission Duration: 119.69 seconds
+[2024-09-10 21:37:15.018805] Measurement 74 of 300, Battery Level: 73% @ 12.587V, Mission Duration: 120.69 seconds
+[2024-09-10 21:37:16.019898] Measurement 75 of 300, Battery Level: 73% @ 12.587V, Mission Duration: 121.69 seconds
+[2024-09-10 21:37:17.021117] Measurement 76 of 300, Battery Level: 72% @ 12.587V, Mission Duration: 122.69 seconds
+[2024-09-10 21:37:18.022294] Measurement 77 of 300, Battery Level: 72% @ 12.587V, Mission Duration: 123.69 seconds
+[2024-09-10 21:37:19.023463] Measurement 78 of 300, Battery Level: 72% @ 12.587V, Mission Duration: 124.69 seconds
+[2024-09-10 21:37:20.024633] Measurement 79 of 300, Battery Level: 72% @ 12.587V, Mission Duration: 125.69 seconds
+[2024-09-10 21:37:21.025806] Measurement 80 of 300, Battery Level: 72% @ 12.587V, Mission Duration: 126.70 seconds
+[2024-09-10 21:37:22.026981] Measurement 81 of 300, Battery Level: 71% @ 12.587V, Mission Duration: 127.70 seconds
+[2024-09-10 21:37:23.028188] Measurement 82 of 300, Battery Level: 71% @ 12.587V, Mission Duration: 128.70 seconds
+[2024-09-10 21:37:24.029664] Measurement 83 of 300, Battery Level: 71% @ 12.587V, Mission Duration: 129.70 seconds
+[2024-09-10 21:37:25.030851] Measurement 84 of 300, Battery Level: 71% @ 12.587V, Mission Duration: 130.70 seconds
+[2024-09-10 21:37:26.032008] Measurement 85 of 300, Battery Level: 70% @ 12.587V, Mission Duration: 131.70 seconds
+[2024-09-10 21:37:27.032564] Measurement 86 of 300, Battery Level: 70% @ 12.587V, Mission Duration: 132.70 seconds
+[2024-09-10 21:37:28.033823] Measurement 87 of 300, Battery Level: 70% @ 12.587V, Mission Duration: 133.70 seconds
+[2024-09-10 21:37:29.034741] Measurement 88 of 300, Battery Level: 70% @ 12.587V, Mission Duration: 134.70 seconds
+[2024-09-10 21:37:30.035341] Measurement 89 of 300, Battery Level: 69% @ 12.587V, Mission Duration: 135.71 seconds
+[2024-09-10 21:37:31.036538] Measurement 90 of 300, Battery Level: 69% @ 12.587V, Mission Duration: 136.71 seconds
+[2024-09-10 21:37:32.037741] Measurement 91 of 300, Battery Level: 69% @ 12.587V, Mission Duration: 137.71 seconds
+[2024-09-10 21:37:33.038915] Measurement 92 of 300, Battery Level: 69% @ 12.587V, Mission Duration: 138.71 seconds
+[2024-09-10 21:37:34.040091] Measurement 93 of 300, Battery Level: 68% @ 12.587V, Mission Duration: 139.71 seconds
+[2024-09-10 21:37:35.040464] Measurement 94 of 300, Battery Level: 68% @ 12.587V, Mission Duration: 140.71 seconds
+[2024-09-10 21:37:36.041190] Measurement 95 of 300, Battery Level: 68% @ 12.587V, Mission Duration: 141.71 seconds
+[2024-09-10 21:37:37.042360] Measurement 96 of 300, Battery Level: 68% @ 12.587V, Mission Duration: 142.71 seconds
+[2024-09-10 21:37:38.043478] Measurement 97 of 300, Battery Level: 68% @ 12.587V, Mission Duration: 143.71 seconds
+[2024-09-10 21:37:39.044689] Measurement 98 of 300, Battery Level: 67% @ 12.587V, Mission Duration: 144.71 seconds
+[2024-09-10 21:37:40.045974] Measurement 99 of 300, Battery Level: 67% @ 12.587V, Mission Duration: 145.72 seconds
+[2024-09-10 21:37:41.047159] Measurement 100 of 300, Battery Level: 67% @ 12.587V, Mission Duration: 146.72 seconds
+[2024-09-10 21:37:42.048057] Measurement 101 of 300, Battery Level: 67% @ 12.587V, Mission Duration: 147.72 seconds
+[2024-09-10 21:37:43.049263] Measurement 102 of 300, Battery Level: 66% @ 12.587V, Mission Duration: 148.72 seconds
+[2024-09-10 21:37:44.050443] Measurement 103 of 300, Battery Level: 66% @ 12.587V, Mission Duration: 149.72 seconds
+[2024-09-10 21:37:45.050718] Measurement 104 of 300, Battery Level: 66% @ 12.587V, Mission Duration: 150.72 seconds
+[2024-09-10 21:37:46.051732] Measurement 105 of 300, Battery Level: 66% @ 12.587V, Mission Duration: 151.72 seconds
+[2024-09-10 21:37:47.052920] Measurement 106 of 300, Battery Level: 65% @ 12.587V, Mission Duration: 152.72 seconds
+[2024-09-10 21:37:48.053604] Measurement 107 of 300, Battery Level: 65% @ 12.587V, Mission Duration: 153.72 seconds
+[2024-09-10 21:37:49.054580] Measurement 108 of 300, Battery Level: 65% @ 12.587V, Mission Duration: 154.72 seconds
+[2024-09-10 21:37:50.055203] Measurement 109 of 300, Battery Level: 65% @ 12.587V, Mission Duration: 155.72 seconds
+[2024-09-10 21:37:51.056386] Measurement 110 of 300, Battery Level: 64% @ 12.587V, Mission Duration: 156.73 seconds
+[2024-09-10 21:37:52.057555] Measurement 111 of 300, Battery Level: 64% @ 12.587V, Mission Duration: 157.73 seconds
+[2024-09-10 21:37:53.058734] Measurement 112 of 300, Battery Level: 64% @ 12.587V, Mission Duration: 158.73 seconds
+[2024-09-10 21:37:54.059796] Measurement 113 of 300, Battery Level: 64% @ 12.587V, Mission Duration: 159.73 seconds
+[2024-09-10 21:37:55.060738] Measurement 114 of 300, Battery Level: 64% @ 12.587V, Mission Duration: 160.73 seconds
+[2024-09-10 21:37:56.061905] Measurement 115 of 300, Battery Level: 63% @ 12.587V, Mission Duration: 161.73 seconds
+[2024-09-10 21:37:57.063107] Measurement 116 of 300, Battery Level: 63% @ 12.587V, Mission Duration: 162.73 seconds
+[2024-09-10 21:37:58.064313] Measurement 117 of 300, Battery Level: 63% @ 12.587V, Mission Duration: 163.73 seconds
+[2024-09-10 21:37:59.065051] Measurement 118 of 300, Battery Level: 63% @ 12.587V, Mission Duration: 164.73 seconds
+[2024-09-10 21:38:00.066322] Measurement 119 of 300, Battery Level: 62% @ 12.587V, Mission Duration: 165.74 seconds
+[2024-09-10 21:38:01.067284] Measurement 120 of 300, Battery Level: 62% @ 12.587V, Mission Duration: 166.74 seconds
+[2024-09-10 21:38:02.068455] Measurement 121 of 300, Battery Level: 62% @ 12.587V, Mission Duration: 167.74 seconds
+[2024-09-10 21:38:03.069455] Measurement 122 of 300, Battery Level: 62% @ 12.587V, Mission Duration: 168.74 seconds
+[2024-09-10 21:38:04.069981] Measurement 123 of 300, Battery Level: 61% @ 12.587V, Mission Duration: 169.74 seconds
+[2024-09-10 21:38:05.070931] Measurement 124 of 300, Battery Level: 61% @ 12.587V, Mission Duration: 170.74 seconds
+[2024-09-10 21:38:06.072178] Measurement 125 of 300, Battery Level: 61% @ 12.587V, Mission Duration: 171.74 seconds
+[2024-09-10 21:38:07.073378] Measurement 126 of 300, Battery Level: 61% @ 12.587V, Mission Duration: 172.74 seconds
+[2024-09-10 21:38:08.074612] Measurement 127 of 300, Battery Level: 60% @ 12.587V, Mission Duration: 173.74 seconds
+[2024-09-10 21:38:09.074810] Measurement 128 of 300, Battery Level: 60% @ 12.587V, Mission Duration: 174.74 seconds
+[2024-09-10 21:38:10.075991] Measurement 129 of 300, Battery Level: 60% @ 12.587V, Mission Duration: 175.75 seconds
+[2024-09-10 21:38:11.077172] Measurement 130 of 300, Battery Level: 60% @ 12.587V, Mission Duration: 176.75 seconds
+[2024-09-10 21:38:12.077398] Measurement 131 of 300, Battery Level: 59% @ 12.587V, Mission Duration: 177.75 seconds
+[2024-09-10 21:38:13.078080] Measurement 132 of 300, Battery Level: 59% @ 12.587V, Mission Duration: 178.75 seconds
+[2024-09-10 21:38:14.079318] Measurement 133 of 300, Battery Level: 59% @ 12.587V, Mission Duration: 179.75 seconds
+[2024-09-10 21:38:15.080430] Measurement 134 of 300, Battery Level: 59% @ 12.587V, Mission Duration: 180.75 seconds
+[2024-09-10 21:38:16.081622] Measurement 135 of 300, Battery Level: 59% @ 12.587V, Mission Duration: 181.75 seconds
+[2024-09-10 21:38:17.082811] Measurement 136 of 300, Battery Level: 58% @ 12.587V, Mission Duration: 182.75 seconds
+[2024-09-10 21:38:18.084004] Measurement 137 of 300, Battery Level: 58% @ 12.587V, Mission Duration: 183.75 seconds
+[2024-09-10 21:38:19.084581] Measurement 138 of 300, Battery Level: 58% @ 12.587V, Mission Duration: 184.75 seconds
+[2024-09-10 21:38:20.085489] Measurement 139 of 300, Battery Level: 58% @ 12.587V, Mission Duration: 185.76 seconds
+[2024-09-10 21:38:21.085959] Measurement 140 of 300, Battery Level: 57% @ 12.587V, Mission Duration: 186.76 seconds
+[2024-09-10 21:38:22.087133] Measurement 141 of 300, Battery Level: 57% @ 12.587V, Mission Duration: 187.76 seconds
+[2024-09-10 21:38:23.088342] Measurement 142 of 300, Battery Level: 57% @ 12.587V, Mission Duration: 188.76 seconds
+[2024-09-10 21:38:24.089531] Measurement 143 of 300, Battery Level: 57% @ 12.587V, Mission Duration: 189.76 seconds
+[2024-09-10 21:38:25.090787] Measurement 144 of 300, Battery Level: 56% @ 12.587V, Mission Duration: 190.76 seconds
+[2024-09-10 21:38:26.091582] Measurement 145 of 300, Battery Level: 56% @ 12.587V, Mission Duration: 191.76 seconds
+[2024-09-10 21:38:27.092756] Measurement 146 of 300, Battery Level: 56% @ 12.587V, Mission Duration: 192.76 seconds
+[2024-09-10 21:38:28.093931] Measurement 147 of 300, Battery Level: 56% @ 12.587V, Mission Duration: 193.76 seconds
+[2024-09-10 21:38:29.095099] Measurement 148 of 300, Battery Level: 55% @ 12.587V, Mission Duration: 194.76 seconds
+[2024-09-10 21:38:30.096291] Measurement 149 of 300, Battery Level: 55% @ 12.587V, Mission Duration: 195.77 seconds
+[2024-09-10 21:38:31.097154] Measurement 150 of 300, Battery Level: 55% @ 12.587V, Mission Duration: 196.77 seconds
+[2024-09-10 21:38:32.098233] Measurement 151 of 300, Battery Level: 55% @ 12.587V, Mission Duration: 197.77 seconds
+[2024-09-10 21:38:33.098633] Measurement 152 of 300, Battery Level: 55% @ 12.587V, Mission Duration: 198.77 seconds
+[2024-09-10 21:38:34.099543] Measurement 153 of 300, Battery Level: 54% @ 12.587V, Mission Duration: 199.77 seconds
+[2024-09-10 21:38:35.100559] Measurement 154 of 300, Battery Level: 54% @ 12.587V, Mission Duration: 200.77 seconds
+[2024-09-10 21:38:36.101756] Measurement 155 of 300, Battery Level: 54% @ 12.587V, Mission Duration: 201.77 seconds
+[2024-09-10 21:38:37.102731] Measurement 156 of 300, Battery Level: 54% @ 12.587V, Mission Duration: 202.77 seconds
+[2024-09-10 21:38:38.102979] Measurement 157 of 300, Battery Level: 53% @ 12.587V, Mission Duration: 203.77 seconds
+[2024-09-10 21:38:39.103777] Measurement 158 of 300, Battery Level: 53% @ 12.587V, Mission Duration: 204.77 seconds
+[2024-09-10 21:38:40.104896] Measurement 159 of 300, Battery Level: 53% @ 12.587V, Mission Duration: 205.77 seconds
+[2024-09-10 21:38:41.105086] Measurement 160 of 300, Battery Level: 53% @ 12.587V, Mission Duration: 206.77 seconds
+[2024-09-10 21:38:42.105682] Measurement 161 of 300, Battery Level: 52% @ 12.587V, Mission Duration: 207.78 seconds
+[2024-09-10 21:38:43.106587] Measurement 162 of 300, Battery Level: 52% @ 12.587V, Mission Duration: 208.78 seconds
+[2024-09-10 21:38:44.107787] Measurement 163 of 300, Battery Level: 52% @ 12.587V, Mission Duration: 209.78 seconds
+[2024-09-10 21:38:45.108249] Measurement 164 of 300, Battery Level: 52% @ 12.587V, Mission Duration: 210.78 seconds
+[2024-09-10 21:38:46.109453] Measurement 165 of 300, Battery Level: 51% @ 12.587V, Mission Duration: 211.78 seconds
+[2024-09-10 21:38:47.110226] Measurement 166 of 300, Battery Level: 51% @ 12.587V, Mission Duration: 212.78 seconds
+[2024-09-10 21:38:48.111447] Measurement 167 of 300, Battery Level: 51% @ 12.587V, Mission Duration: 213.78 seconds
+[2024-09-10 21:38:49.112654] Measurement 168 of 300, Battery Level: 51% @ 12.587V, Mission Duration: 214.78 seconds
+[2024-09-10 21:38:50.113881] Measurement 169 of 300, Battery Level: 51% @ 12.587V, Mission Duration: 215.78 seconds
+[2024-09-10 21:38:51.114160] Measurement 170 of 300, Battery Level: 50% @ 12.587V, Mission Duration: 216.78 seconds
+[2024-09-10 21:38:52.115355] Measurement 171 of 300, Battery Level: 50% @ 12.587V, Mission Duration: 217.79 seconds
+[2024-09-10 21:38:53.116540] Measurement 172 of 300, Battery Level: 50% @ 12.587V, Mission Duration: 218.79 seconds
+[2024-09-10 21:38:54.117725] Measurement 173 of 300, Battery Level: 50% @ 12.587V, Mission Duration: 219.79 seconds
+[2024-09-10 21:38:55.118400] Measurement 174 of 300, Battery Level: 49% @ 12.587V, Mission Duration: 220.79 seconds
+[2024-09-10 21:38:56.119585] Measurement 175 of 300, Battery Level: 49% @ 12.587V, Mission Duration: 221.79 seconds
+[2024-09-10 21:38:57.120080] Measurement 176 of 300, Battery Level: 49% @ 12.587V, Mission Duration: 222.79 seconds
+[2024-09-10 21:38:58.121265] Measurement 177 of 300, Battery Level: 49% @ 12.587V, Mission Duration: 223.79 seconds
+[2024-09-10 21:38:59.121698] Measurement 178 of 300, Battery Level: 48% @ 12.587V, Mission Duration: 224.79 seconds
+[2024-09-10 21:39:00.122869] Measurement 179 of 300, Battery Level: 48% @ 12.587V, Mission Duration: 225.79 seconds
+[2024-09-10 21:39:01.124090] Measurement 180 of 300, Battery Level: 48% @ 12.587V, Mission Duration: 226.79 seconds
+[2024-09-10 21:39:02.124298] Measurement 181 of 300, Battery Level: 48% @ 12.587V, Mission Duration: 227.79 seconds
+[2024-09-10 21:39:03.125476] Measurement 182 of 300, Battery Level: 47% @ 12.587V, Mission Duration: 228.80 seconds
+[2024-09-10 21:39:04.126477] Measurement 183 of 300, Battery Level: 47% @ 12.587V, Mission Duration: 229.80 seconds
+[2024-09-10 21:39:05.127312] Measurement 184 of 300, Battery Level: 47% @ 12.587V, Mission Duration: 230.80 seconds
+[2024-09-10 21:39:06.128495] Measurement 185 of 300, Battery Level: 47% @ 12.587V, Mission Duration: 231.80 seconds
+[2024-09-10 21:39:07.129684] Measurement 186 of 300, Battery Level: 46% @ 12.587V, Mission Duration: 232.80 seconds
+[2024-09-10 21:39:08.130897] Measurement 187 of 300, Battery Level: 46% @ 12.587V, Mission Duration: 233.80 seconds
+[2024-09-10 21:39:09.132086] Measurement 188 of 300, Battery Level: 46% @ 12.587V, Mission Duration: 234.80 seconds
+[2024-09-10 21:39:10.133274] Measurement 189 of 300, Battery Level: 46% @ 12.587V, Mission Duration: 235.80 seconds
+[2024-09-10 21:39:11.134468] Measurement 190 of 300, Battery Level: 46% @ 12.587V, Mission Duration: 236.80 seconds
+[2024-09-10 21:39:12.135692] Measurement 191 of 300, Battery Level: 45% @ 12.587V, Mission Duration: 237.81 seconds
+[2024-09-10 21:39:13.136866] Measurement 192 of 300, Battery Level: 45% @ 12.587V, Mission Duration: 238.81 seconds
+[2024-09-10 21:39:14.137996] Measurement 193 of 300, Battery Level: 45% @ 12.587V, Mission Duration: 239.81 seconds
+[2024-09-10 21:39:15.138707] Measurement 194 of 300, Battery Level: 45% @ 12.587V, Mission Duration: 240.81 seconds
+[2024-09-10 21:39:16.139554] Measurement 195 of 300, Battery Level: 44% @ 12.587V, Mission Duration: 241.81 seconds
+[2024-09-10 21:39:17.140783] Measurement 196 of 300, Battery Level: 44% @ 12.587V, Mission Duration: 242.81 seconds
+[2024-09-10 21:39:18.141506] Measurement 197 of 300, Battery Level: 44% @ 12.587V, Mission Duration: 243.81 seconds
+[2024-09-10 21:39:19.142702] Measurement 198 of 300, Battery Level: 44% @ 12.587V, Mission Duration: 244.81 seconds
+[2024-09-10 21:39:20.143898] Measurement 199 of 300, Battery Level: 43% @ 12.587V, Mission Duration: 245.81 seconds
+[2024-09-10 21:39:21.145098] Measurement 200 of 300, Battery Level: 43% @ 12.587V, Mission Duration: 246.81 seconds
+[2024-09-10 21:39:22.146180] Measurement 201 of 300, Battery Level: 43% @ 12.587V, Mission Duration: 247.82 seconds
+[2024-09-10 21:39:23.147344] Measurement 202 of 300, Battery Level: 43% @ 12.587V, Mission Duration: 248.82 seconds
+[2024-09-10 21:39:24.148517] Measurement 203 of 300, Battery Level: 42% @ 12.587V, Mission Duration: 249.82 seconds
+[2024-09-10 21:39:25.149716] Measurement 204 of 300, Battery Level: 42% @ 12.587V, Mission Duration: 250.82 seconds
+[2024-09-10 21:39:26.150898] Measurement 205 of 300, Battery Level: 42% @ 12.587V, Mission Duration: 251.82 seconds
+[2024-09-10 21:39:27.151866] Measurement 206 of 300, Battery Level: 42% @ 12.587V, Mission Duration: 252.82 seconds
+[2024-09-10 21:39:28.153062] Measurement 207 of 300, Battery Level: 42% @ 12.587V, Mission Duration: 253.82 seconds
+[2024-09-10 21:39:29.154258] Measurement 208 of 300, Battery Level: 41% @ 12.587V, Mission Duration: 254.82 seconds
+[2024-09-10 21:39:30.155439] Measurement 209 of 300, Battery Level: 41% @ 12.587V, Mission Duration: 255.83 seconds
+[2024-09-10 21:39:31.156661] Measurement 210 of 300, Battery Level: 41% @ 12.587V, Mission Duration: 256.83 seconds
+[2024-09-10 21:39:32.157802] Measurement 211 of 300, Battery Level: 41% @ 12.587V, Mission Duration: 257.83 seconds
+[2024-09-10 21:39:33.159511] Measurement 212 of 300, Battery Level: 40% @ 12.587V, Mission Duration: 258.83 seconds
+[2024-09-10 21:39:34.160126] Measurement 213 of 300, Battery Level: 40% @ 12.587V, Mission Duration: 259.83 seconds
+[2024-09-10 21:39:35.161262] Measurement 214 of 300, Battery Level: 40% @ 12.587V, Mission Duration: 260.83 seconds
+[2024-09-10 21:39:36.162817] Measurement 215 of 300, Battery Level: 40% @ 12.587V, Mission Duration: 261.83 seconds
+[2024-09-10 21:39:37.163455] Measurement 216 of 300, Battery Level: 39% @ 12.587V, Mission Duration: 262.83 seconds
+[2024-09-10 21:39:38.164426] Measurement 217 of 300, Battery Level: 39% @ 12.587V, Mission Duration: 263.83 seconds
+[2024-09-10 21:39:39.165073] Measurement 218 of 300, Battery Level: 39% @ 12.587V, Mission Duration: 264.83 seconds
+[2024-09-10 21:39:40.167224] Measurement 219 of 300, Battery Level: 39% @ 12.587V, Mission Duration: 265.84 seconds
+[2024-09-10 21:39:41.167761] Measurement 220 of 300, Battery Level: 38% @ 12.587V, Mission Duration: 266.84 seconds
+[2024-09-10 21:39:42.169004] Measurement 221 of 300, Battery Level: 38% @ 12.587V, Mission Duration: 267.84 seconds
+[2024-09-10 21:39:43.170187] Measurement 222 of 300, Battery Level: 38% @ 12.587V, Mission Duration: 268.84 seconds
+[2024-09-10 21:39:44.171380] Measurement 223 of 300, Battery Level: 38% @ 12.587V, Mission Duration: 269.84 seconds
+[2024-09-10 21:39:45.172238] Measurement 224 of 300, Battery Level: 37% @ 12.587V, Mission Duration: 270.84 seconds
+[2024-09-10 21:39:46.172474] Measurement 225 of 300, Battery Level: 37% @ 12.587V, Mission Duration: 271.84 seconds
+[2024-09-10 21:39:47.173646] Measurement 226 of 300, Battery Level: 37% @ 12.587V, Mission Duration: 272.84 seconds
+[2024-09-10 21:39:48.173920] Measurement 227 of 300, Battery Level: 37% @ 12.587V, Mission Duration: 273.84 seconds
+[2024-09-10 21:39:49.174775] Measurement 228 of 300, Battery Level: 37% @ 12.587V, Mission Duration: 274.84 seconds
+[2024-09-10 21:39:50.175223] Measurement 229 of 300, Battery Level: 36% @ 12.587V, Mission Duration: 275.85 seconds
+[2024-09-10 21:39:51.176387] Measurement 230 of 300, Battery Level: 36% @ 12.587V, Mission Duration: 276.85 seconds
+[2024-09-10 21:39:52.177655] Measurement 231 of 300, Battery Level: 36% @ 12.587V, Mission Duration: 277.85 seconds
+[2024-09-10 21:39:53.178759] Measurement 232 of 300, Battery Level: 36% @ 12.587V, Mission Duration: 278.85 seconds
+[2024-09-10 21:39:54.179927] Measurement 233 of 300, Battery Level: 35% @ 12.587V, Mission Duration: 279.85 seconds
+[2024-09-10 21:39:55.181098] Measurement 234 of 300, Battery Level: 35% @ 12.587V, Mission Duration: 280.85 seconds
+[2024-09-10 21:39:56.182305] Measurement 235 of 300, Battery Level: 35% @ 12.587V, Mission Duration: 281.85 seconds
+[2024-09-10 21:39:57.183491] Measurement 236 of 300, Battery Level: 35% @ 12.587V, Mission Duration: 282.85 seconds
+[2024-09-10 21:39:58.184532] Measurement 237 of 300, Battery Level: 34% @ 12.587V, Mission Duration: 283.85 seconds
+[2024-09-10 21:39:59.185446] Measurement 238 of 300, Battery Level: 34% @ 12.587V, Mission Duration: 284.86 seconds
+[2024-09-10 21:40:00.186692] Measurement 239 of 300, Battery Level: 34% @ 12.587V, Mission Duration: 285.86 seconds
+[2024-09-10 21:40:01.187967] Measurement 240 of 300, Battery Level: 34% @ 12.587V, Mission Duration: 286.86 seconds
+[2024-09-10 21:40:02.189170] Measurement 241 of 300, Battery Level: 33% @ 12.587V, Mission Duration: 287.86 seconds
+[2024-09-10 21:40:03.189990] Measurement 242 of 300, Battery Level: 33% @ 12.587V, Mission Duration: 288.86 seconds
+[2024-09-10 21:40:04.191174] Measurement 243 of 300, Battery Level: 33% @ 12.587V, Mission Duration: 289.86 seconds
+[2024-09-10 21:40:05.191549] Measurement 244 of 300, Battery Level: 33% @ 12.587V, Mission Duration: 290.86 seconds
+[2024-09-10 21:40:06.192771] Measurement 245 of 300, Battery Level: 32% @ 12.587V, Mission Duration: 291.86 seconds
+[2024-09-10 21:40:07.193959] Measurement 246 of 300, Battery Level: 32% @ 12.587V, Mission Duration: 292.86 seconds
+[2024-09-10 21:40:08.194302] Measurement 247 of 300, Battery Level: 32% @ 12.587V, Mission Duration: 293.86 seconds
+[2024-09-10 21:40:09.195435] Measurement 248 of 300, Battery Level: 32% @ 12.587V, Mission Duration: 294.87 seconds
+[2024-09-10 21:40:10.196607] Measurement 249 of 300, Battery Level: 32% @ 12.587V, Mission Duration: 295.87 seconds
+[2024-09-10 21:40:11.197258] Measurement 250 of 300, Battery Level: 31% @ 12.587V, Mission Duration: 296.87 seconds
+[2024-09-10 21:40:12.197687] Measurement 251 of 300, Battery Level: 31% @ 12.587V, Mission Duration: 297.87 seconds
+[2024-09-10 21:40:13.198703] Measurement 252 of 300, Battery Level: 31% @ 12.587V, Mission Duration: 298.87 seconds
+[2024-09-10 21:40:14.199731] Measurement 253 of 300, Battery Level: 31% @ 12.587V, Mission Duration: 299.87 seconds
+[2024-09-10 21:40:15.200303] Measurement 254 of 300, Battery Level: 30% @ 12.587V, Mission Duration: 300.87 seconds
+[2024-09-10 21:40:16.201254] Measurement 255 of 300, Battery Level: 30% @ 12.587V, Mission Duration: 301.87 seconds
+[2024-09-10 21:40:17.201964] Measurement 256 of 300, Battery Level: 30% @ 12.587V, Mission Duration: 302.87 seconds
+[2024-09-10 21:40:18.202860] Measurement 257 of 300, Battery Level: 30% @ 12.587V, Mission Duration: 303.87 seconds
+[2024-09-10 21:40:19.204055] Measurement 258 of 300, Battery Level: 29% @ 12.587V, Mission Duration: 304.87 seconds
+[2024-09-10 21:40:20.205244] Measurement 259 of 300, Battery Level: 29% @ 12.587V, Mission Duration: 305.88 seconds
+[2024-09-10 21:40:21.206346] Measurement 260 of 300, Battery Level: 29% @ 12.587V, Mission Duration: 306.88 seconds
+[2024-09-10 21:40:22.207352] Measurement 261 of 300, Battery Level: 29% @ 12.587V, Mission Duration: 307.88 seconds
+[2024-09-10 21:40:23.208568] Measurement 262 of 300, Battery Level: 28% @ 12.587V, Mission Duration: 308.88 seconds
+[2024-09-10 21:40:24.209080] Measurement 263 of 300, Battery Level: 28% @ 12.587V, Mission Duration: 309.88 seconds
+[2024-09-10 21:40:25.210332] Measurement 264 of 300, Battery Level: 28% @ 12.587V, Mission Duration: 310.88 seconds
+[2024-09-10 21:40:26.210940] Measurement 265 of 300, Battery Level: 28% @ 12.587V, Mission Duration: 311.88 seconds
+[2024-09-10 21:40:27.212132] Measurement 266 of 300, Battery Level: 28% @ 12.587V, Mission Duration: 312.88 seconds
+[2024-09-10 21:40:28.213298] Measurement 267 of 300, Battery Level: 27% @ 12.587V, Mission Duration: 313.88 seconds
+[2024-09-10 21:40:29.214477] Measurement 268 of 300, Battery Level: 27% @ 12.587V, Mission Duration: 314.88 seconds
+[2024-09-10 21:40:30.215203] Measurement 269 of 300, Battery Level: 27% @ 12.587V, Mission Duration: 315.88 seconds
+[2024-09-10 21:40:31.216376] Measurement 270 of 300, Battery Level: 27% @ 12.587V, Mission Duration: 316.89 seconds
+[2024-09-10 21:40:32.217202] Measurement 271 of 300, Battery Level: 26% @ 12.587V, Mission Duration: 317.89 seconds
+[2024-09-10 21:40:33.217691] Measurement 272 of 300, Battery Level: 26% @ 12.587V, Mission Duration: 318.89 seconds
+[2024-09-10 21:40:34.218034] Measurement 273 of 300, Battery Level: 26% @ 12.587V, Mission Duration: 319.89 seconds
+[2024-09-10 21:40:35.219232] Measurement 274 of 300, Battery Level: 26% @ 12.587V, Mission Duration: 320.89 seconds
+[2024-09-10 21:40:36.219954] Measurement 275 of 300, Battery Level: 25% @ 12.587V, Mission Duration: 321.89 seconds
+[2024-09-10 21:40:37.220805] Measurement 276 of 300, Battery Level: 25% @ 12.587V, Mission Duration: 322.89 seconds
+[2024-09-10 21:40:38.221876] Measurement 277 of 300, Battery Level: 25% @ 12.587V, Mission Duration: 323.89 seconds
+[2024-09-10 21:40:39.223106] Measurement 278 of 300, Battery Level: 25% @ 12.587V, Mission Duration: 324.89 seconds
+[2024-09-10 21:40:40.224341] Measurement 279 of 300, Battery Level: 24% @ 12.587V, Mission Duration: 325.89 seconds
+[2024-09-10 21:40:41.225236] Measurement 280 of 300, Battery Level: 24% @ 12.587V, Mission Duration: 326.89 seconds
+[2024-09-10 21:40:42.225635] Measurement 281 of 300, Battery Level: 24% @ 12.587V, Mission Duration: 327.90 seconds
+[2024-09-10 21:40:43.226844] Measurement 282 of 300, Battery Level: 24% @ 12.587V, Mission Duration: 328.90 seconds
+[2024-09-10 21:40:44.228051] Measurement 283 of 300, Battery Level: 24% @ 12.587V, Mission Duration: 329.90 seconds
+[2024-09-10 21:40:45.229264] Measurement 284 of 300, Battery Level: 23% @ 12.587V, Mission Duration: 330.90 seconds
+[2024-09-10 21:40:46.230440] Measurement 285 of 300, Battery Level: 23% @ 12.587V, Mission Duration: 331.90 seconds
+[2024-09-10 21:40:47.231519] Measurement 286 of 300, Battery Level: 23% @ 12.587V, Mission Duration: 332.90 seconds
+[2024-09-10 21:40:48.232707] Measurement 287 of 300, Battery Level: 23% @ 12.587V, Mission Duration: 333.90 seconds
+[2024-09-10 21:40:49.233868] Measurement 288 of 300, Battery Level: 22% @ 12.587V, Mission Duration: 334.90 seconds
+[2024-09-10 21:40:50.234985] Measurement 289 of 300, Battery Level: 22% @ 12.587V, Mission Duration: 335.90 seconds
+[2024-09-10 21:40:51.236160] Measurement 290 of 300, Battery Level: 22% @ 12.587V, Mission Duration: 336.91 seconds
+[2024-09-10 21:40:52.237334] Measurement 291 of 300, Battery Level: 22% @ 12.587V, Mission Duration: 337.91 seconds
+[2024-09-10 21:40:53.237859] Measurement 292 of 300, Battery Level: 21% @ 12.587V, Mission Duration: 338.91 seconds
+[2024-09-10 21:40:54.239062] Measurement 293 of 300, Battery Level: 21% @ 12.587V, Mission Duration: 339.91 seconds
+[2024-09-10 21:40:55.240011] Measurement 294 of 300, Battery Level: 21% @ 12.587V, Mission Duration: 340.91 seconds
+[2024-09-10 21:40:56.240508] Measurement 295 of 300, Battery Level: 21% @ 12.587V, Mission Duration: 341.91 seconds
+[2024-09-10 21:40:57.241456] Measurement 296 of 300, Battery Level: 20% @ 12.587V, Mission Duration: 342.91 seconds
+[2024-09-10 21:40:58.242183] Measurement 297 of 300, Battery Level: 20% @ 12.587V, Mission Duration: 343.91 seconds
+[2024-09-10 21:40:59.243414] Measurement 298 of 300, Battery Level: 20% @ 12.587V, Mission Duration: 344.91 seconds
+[2024-09-10 21:41:00.244650] Measurement 299 of 300, Battery Level: 20% @ 12.587V, Mission Duration: 345.91 seconds
+[2024-09-10 21:41:01.245810] Done taking measurements
+[2024-09-10 21:41:01.245907] Returning to cruise altitude (40)
+[2024-09-10 21:41:06.217578] Arrived at cruise altitude
+[2024-09-10 21:41:06.227748] Going to next waypoint
+[2024-09-10 21:41:06.227811] No more waypoints, ending mission
+[2024-09-10 21:41:06.237903] Ending mission
+[2024-09-10 21:41:06.237959] Current Battery Level: Battery:voltage=12.587,current=27.83,level=18% Current Mission Duration: 351.907772 seconds
+[2024-09-10 21:41:06.237998] Returning to cruise altitude (40)
+[2024-09-10 21:41:06.338682] Arrived at cruise altitude
+[2024-09-10 21:41:06.338784] Returning to launch: (35.7274823,-78.6962747,40)
+[2024-09-10 21:41:15.167592] Landing
+[2024-09-10 21:41:59.584531] Mission complete :D

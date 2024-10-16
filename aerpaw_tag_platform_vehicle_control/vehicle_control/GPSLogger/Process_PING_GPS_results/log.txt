@@ -1,0 +1,5 @@
+test1: before rain 50 dB TX enB gain
+test2: after rain 60 dB TX enbgain
+test3: after rain 65 dB TX enbgain
+test4: after rain 62 dB TX enbgain
+

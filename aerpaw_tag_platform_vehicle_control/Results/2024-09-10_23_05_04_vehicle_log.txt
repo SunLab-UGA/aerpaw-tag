@@ -1,0 +1,86 @@
+[2024-09-10 23:05:05.039321] All imports were successful
+[2024-09-10 23:05:05.039477] Constants initialized
+[2024-09-10 23:05:05.039512] Search Altitude: 30
+[2024-09-10 23:05:05.039540] Cruise Altitude: 40
+[2024-09-10 23:05:05.039571] Target Location: (35.727753,-78.696723,40)
+[2024-09-10 23:05:05.039605] Mission Duration Limit: 20 minutes
+[2024-09-10 23:05:05.039635] Mission Battery Limit: 30%
+[2024-09-10 23:05:05.039665] Mission Battery Voltage Limit: 10.5V
+[2024-09-10 23:05:05.039695] Mission Linger Time: 300 seconds
+[2024-09-10 23:05:05.039724] RoverSearch StateMachine initialized
+[2024-09-10 23:05:05.855094] rover_search PID is: 839142
+[2024-09-10 23:05:05.855210] Current working directory: /root/AERPAW-Dev/AHN/E-VM/Profile_software/vehicle_control/RoverSearch
+[2024-09-10 23:05:05.855245] Heightmap loaded
+[2024-09-10 23:05:05.855274] Finished initialization
+[2024-09-10 23:05:05.855303] 
+[2024-09-10 23:05:06.857329] Starting mission coordinates: (35.7274823,-78.6962747,-0.017)
+[2024-09-10 23:05:06.857435] Starting mission at: 2024-09-10 23:05:06.857233
+[2024-09-10 23:05:06.857468] Starting battery level: Battery:voltage=12.587,current=0.0,level=100%
+[2024-09-10 23:05:06.857497] Takeoff height set to 0 meters at 35.7274823, -78.6962747.
+[2024-09-10 23:05:06.857526] Elevation offset calculated as 111 meters.
+[2024-09-10 23:05:06.857555] Heightmap offset set to 111
+[2024-09-10 23:05:06.857585] Ground height estimate: 0
+[2024-09-10 23:05:06.857614] Waiting for arming, then taking off
+[2024-09-10 23:05:06.857644] [aerpawlib] Guided command attempted. Waiting for safety pilot to arm
+[2024-09-10 23:05:40.943785] Took off and at cruise altitude: 39.948
+[2024-09-10 23:05:40.953946] Going to next waypoint
+[2024-09-10 23:05:40.954007] Next waypoint: (35.727753,-78.696723,40)
+[2024-09-10 23:05:40.954886] Received reply [{'request_function': 'validate_waypoint_req', 'result': True, 'message': ''}]
+[2024-09-10 23:05:40.954928] Moving to target location: (35.727753,-78.696723,40)
+[2024-09-10 23:05:40.954956] Distance to target: 50.3678751882471
+[2024-09-10 23:05:49.999872] Arrived at target location
+[2024-09-10 23:05:50.010051] Moving to take measurement
+[2024-09-10 23:05:50.010121] Elevation @ pos: 110
+[2024-09-10 23:05:50.010155] Ground height estimate @ pos: -1
+[2024-09-10 23:05:50.010185] Minimum safe altitude (7 above ground): 6
+[2024-09-10 23:05:50.010216] Safe altitude: 6
+[2024-09-10 23:05:50.010246] The target altitude (30) is safe to fly
+[2024-09-10 23:05:50.010291] Lowering altitude to 30
+[2024-09-10 23:05:56.514951] Arrived at target altitude
+[2024-09-10 23:05:56.515070] Taking measurements
+[2024-09-10 23:05:56.515109] Current Battery Level: Battery:voltage=12.587,current=28.16,level=90%
+[2024-09-10 23:05:56.515158] Current Mission Duration: 49.657728 seconds
+[2024-09-10 23:05:56.515194] attempting to linger for 300 seconds
+[2024-09-10 23:06:05.522340] Measurement 10 of 300, Battery Level: 88% @ 12.587V, Mission Duration: 58.67 seconds
+[2024-09-10 23:06:15.531189] Measurement 20 of 300, Battery Level: 86% @ 12.587V, Mission Duration: 68.67 seconds
+[2024-09-10 23:06:25.541419] Measurement 30 of 300, Battery Level: 83% @ 12.587V, Mission Duration: 78.68 seconds
+[2024-09-10 23:06:35.552412] Measurement 40 of 300, Battery Level: 81% @ 12.587V, Mission Duration: 88.70 seconds
+[2024-09-10 23:06:45.561216] Measurement 50 of 300, Battery Level: 79% @ 12.587V, Mission Duration: 98.70 seconds
+[2024-09-10 23:06:55.571993] Measurement 60 of 300, Battery Level: 76% @ 12.587V, Mission Duration: 108.71 seconds
+[2024-09-10 23:07:05.581299] Measurement 70 of 300, Battery Level: 74% @ 12.587V, Mission Duration: 118.72 seconds
+[2024-09-10 23:07:15.591035] Measurement 80 of 300, Battery Level: 72% @ 12.587V, Mission Duration: 128.73 seconds
+[2024-09-10 23:07:25.599359] Measurement 90 of 300, Battery Level: 69% @ 12.587V, Mission Duration: 138.74 seconds
+[2024-09-10 23:07:35.608854] Measurement 100 of 300, Battery Level: 67% @ 12.587V, Mission Duration: 148.75 seconds
+[2024-09-10 23:07:45.620255] Measurement 110 of 300, Battery Level: 64% @ 12.587V, Mission Duration: 158.76 seconds
+[2024-09-10 23:07:55.628852] Measurement 120 of 300, Battery Level: 62% @ 12.587V, Mission Duration: 168.77 seconds
+[2024-09-10 23:08:05.639603] Measurement 130 of 300, Battery Level: 60% @ 12.587V, Mission Duration: 178.78 seconds
+[2024-09-10 23:08:15.647373] Measurement 140 of 300, Battery Level: 57% @ 12.587V, Mission Duration: 188.79 seconds
+[2024-09-10 23:08:25.657811] Measurement 150 of 300, Battery Level: 55% @ 12.587V, Mission Duration: 198.80 seconds
+[2024-09-10 23:08:35.665147] Measurement 160 of 300, Battery Level: 53% @ 12.587V, Mission Duration: 208.81 seconds
+[2024-09-10 23:08:45.673944] Measurement 170 of 300, Battery Level: 50% @ 12.587V, Mission Duration: 218.82 seconds
+[2024-09-10 23:08:55.683531] Measurement 180 of 300, Battery Level: 48% @ 12.587V, Mission Duration: 228.83 seconds
+[2024-09-10 23:09:05.693959] Measurement 190 of 300, Battery Level: 46% @ 12.587V, Mission Duration: 238.84 seconds
+[2024-09-10 23:09:15.704381] Measurement 200 of 300, Battery Level: 43% @ 12.587V, Mission Duration: 248.85 seconds
+[2024-09-10 23:09:25.714839] Measurement 210 of 300, Battery Level: 41% @ 12.587V, Mission Duration: 258.86 seconds
+[2024-09-10 23:09:35.724010] Measurement 220 of 300, Battery Level: 38% @ 12.587V, Mission Duration: 268.87 seconds
+[2024-09-10 23:09:45.733828] Measurement 230 of 300, Battery Level: 36% @ 12.587V, Mission Duration: 278.88 seconds
+[2024-09-10 23:09:55.742732] Measurement 240 of 300, Battery Level: 34% @ 12.587V, Mission Duration: 288.89 seconds
+[2024-09-10 23:10:05.752213] Measurement 250 of 300, Battery Level: 31% @ 12.587V, Mission Duration: 298.89 seconds
+[2024-09-10 23:10:15.761508] Measurement 260 of 300, Battery Level: 29% @ 12.587V, Mission Duration: 308.90 seconds
+[2024-09-10 23:10:25.772732] Measurement 270 of 300, Battery Level: 27% @ 12.587V, Mission Duration: 318.92 seconds
+[2024-09-10 23:10:35.782449] Measurement 280 of 300, Battery Level: 24% @ 12.587V, Mission Duration: 328.93 seconds
+[2024-09-10 23:10:45.791443] Measurement 290 of 300, Battery Level: 22% @ 12.587V, Mission Duration: 338.93 seconds
+[2024-09-10 23:10:55.801923] Done taking measurements
+[2024-09-10 23:10:55.802033] Returning to cruise altitude (40)
+[2024-09-10 23:11:00.779672] Arrived at cruise altitude
+[2024-09-10 23:11:00.789844] Going to next waypoint
+[2024-09-10 23:11:00.789904] No more waypoints, ending mission
+[2024-09-10 23:11:00.799995] Ending mission
+[2024-09-10 23:11:00.800052] Current Battery Level: Battery:voltage=12.587,current=27.83,level=18% Current Mission Duration: 353.942786 seconds
+[2024-09-10 23:11:00.800085] Returning to cruise altitude (40)
+[2024-09-10 23:11:00.900904] Arrived at cruise altitude
+[2024-09-10 23:11:00.901003] Returning to launch: (35.7274823,-78.6962747,40)
+[2024-09-10 23:11:09.718481] Landing
+[2024-09-10 23:11:54.128684] Landed
+[2024-09-10 23:11:54.128790] Current Battery Level: Battery:voltage=12.587,current=0.0,level=6% Current Mission Duration: 407.271455 seconds
+[2024-09-10 23:11:54.128821] Mission complete :D
