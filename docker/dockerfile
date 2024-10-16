@@ -1,0 +1,22 @@
+# we build from the miniconda image
+# there is a persistent /app directory that is mounted to the host machine (this is where the app code will be)
+
+FROM continuumio/miniconda3:4.8.2
+
+# set to unbuffered so any std output is immediately printed to the console
+ENV PYTHONUNBUFFERED 1
+
+# copy entrypoint data into the container
+COPY /mqtt_app /usr/src/app/data
+
+# set execution permissions for the entrypoint script
+RUN chmod +x /usr/src/app/data/entrypoint.sh
+
+WORKDIR /app
+
+# create a new conda environment from the environment.yml file
+RUN conda env create -f /usr/src/app/data/environment.yml
+
+# CMD to echo, activate the conda environment, and run the app
+# must do it this way to have logging be unbuffered
+CMD echo "Running app.py" && source activate tag && python -u /app/app.py

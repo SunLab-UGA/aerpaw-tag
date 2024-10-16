@@ -1,0 +1,96 @@
+# running "docker compose up" where this file is located will start these containers
+
+services:
+  # InfluxDB ---------------------------------------------------
+  influxdb:
+    image: influxdb:2.7.0
+    container_name: influxdb
+    ports:
+      - 8086:8086
+      - 8088:8088
+    volumes:
+      # persistant volume (linux, mac, wsl)
+      - ./docker_volumes/influxdb2:/var/lib/influxdb2
+      - ./docker_volumes/influxdb2/config.yml:/etc/influxdb2/config.yml
+    environment: #use the .env file to setup default username and password
+      # - INFLUXDB_ADMIN_USER=${INFLUXDB_ADMIN_USER}
+      # - INFLUXDB_ADMIN_PASSWORD=${INFLUXDB_ADMIN_PASSWORD}
+      # - INFLUXDB_ORG=${INFLUXDB_ORG}
+      # - INFLUXDB_BUCKET=${INFLUXDB_BUCKET}
+      # - INFLUXDB_ADMIN_TOKEN=${INFLUXDB_ADMIN_TOKEN}
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=${INFLUXDB_ADMIN_USER}
+      - DOCKER_INFLUXDB_INIT_PASSWORD=${INFLUXDB_ADMIN_PASSWORD}
+      - DOCKER_INFLUXDB_INIT_ORG=${INFLUXDB_ORG}
+      - DOCKER_INFLUXDB_INIT_BUCKET=${INFLUXDB_BUCKET}
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=${INFLUXDB_ADMIN_TOKEN}
+
+    networks:
+      - external_network
+    restart: unless-stopped
+  # Grafana ---------------------------------------------------
+  grafana:
+    image: grafana/grafana:latest #10.0.1 #upgraded from 9.4.7
+    container_name: grafana
+    ports:
+      - 3000:3000
+    volumes:
+      # persistant volume
+      - ./docker_volumes/grafana-storage:/var/lib/grafana
+    depends_on:
+      - influxdb
+    environment:
+      - GF_SECURITY_ADMIN_USER=${GRAFANA_USERNAME}
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+      - GF_DEFAULT_FORCE_MIGRATION=true
+      # influxdb environment variables
+      - GF_DATASOURCE_INFLUXDB_NAME=InfluxDB
+      - GF_DATASOURCE_INFLUXDB_URL=${INFLUXDB_URL}
+      - GF_DATASOURCE_INFLUXDB_TOKEN=${INFLUXDB_ADMIN_TOKEN}
+      - GF_DATASOURCE_INFLUXDB_ORG=${INFLUXDB_ORG}
+      - GF_DATASOURCE_INFLUXDB_BUCKET=${INFLUXDB_BUCKET}
+      - GF_DATASOURCE_INFLUXDB_TYPE=flux #flux is the new query language
+      - GF_SECURITY_ALLOW_EMBEDDING=true
+
+    networks:
+      - external_network
+    restart: unless-stopped
+  # MQTT --------------------------------------------------- (python app to send data to InfluxDB)
+  mqtt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mqtt
+    volumes:
+      - ./docker_volumes/mqtt:/app
+    # use the entrypoint script to initialize volume if it doesn't exist
+    entrypoint: /usr/src/app/data/entrypoint.sh
+    # override the default command to run the python app
+    command: ["bash", "-c", "echo 'Starting MQTT container' && source activate tag && python -u /app/app.py"]
+    depends_on:
+      - influxdb
+    environment:
+      #make sure python is unbuffered
+      - PYTHONUNBUFFERED=1
+      - INFLUXDB_URL=${INFLUXDB_URL}
+      - INFLUXDB_HOST=influxdb
+      - INFLUXDB_PORT=8086
+      - INFLUXDB_DB=METRICS
+      - INFLUXDB_ADMIN_USER=${INFLUXDB_ADMIN_USER}
+      - INFLUXDB_ADMIN_PASSWORD=${INFLUXDB_ADMIN_PASSWORD}
+      - INFLUXDB_BUCKET=${INFLUXDB_BUCKET}
+      - INFLUXDB_ORG=${INFLUXDB_ORG}
+      - INFLUXDB_ADMIN_TOKEN=${INFLUXDB_ADMIN_TOKEN}
+      - MQTT_HOST=${MQTT_HOST}
+      - MQTT_PORT=1883
+      - MQTT_TOPIC=${MQTT_TOPIC}
+    networks:
+      - external_network
+    restart: unless-stopped
+    
+
+networks:
+  # this needs to be set to external in order to use the same network as the host
+  # use "docker network create external_network" to create the network on the host before running this
+  external_network:
+    external: true
