@@ -7,3 +7,7 @@ Project files for a non-canonical aerpaw deployment to power/read wilot tags and
 
 # A system diagram is given below   
 <img src="images/AERPAW_TAG_DIAGRAM_whitebg.png" alt="Image 1" width="750" style="background:white;padding:10px;border-radius:5px;">
+
+
+# Phone install instructions   
+<img src="images/phone_install.png" alt="Image 1" width="750" style="background:white;padding:10px;border-radius:5px;">
